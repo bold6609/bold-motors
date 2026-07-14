@@ -244,9 +244,11 @@ footer {
 @media(max-width:768px) {
 
     .navbar ul {
-        display: none;
+        display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
     }
-
 
     .hero h2 {
         font-size: 35px;
